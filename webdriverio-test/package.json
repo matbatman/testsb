@@ -1,0 +1,31 @@
+{
+  "name": "webdriverio-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^6.7.2",
+    "@wdio/cli": "^6.7.2",
+    "@wdio/cucumber-framework": "^6.7.0",
+    "@wdio/local-runner": "^6.7.3",
+    "@wdio/mocha-framework": "^6.7.3",
+    "@wdio/spec-reporter": "^6.7.0",
+    "@wdio/sync": "^6.7.3",
+    "chromedriver": "^86.0.0",
+    "cucumber": "^7.0.0-rc.0",
+    "mocha-gherkin": "github:mklabs/mocha-gherkin",
+    "wdio-chromedriver-service": "^6.0.4"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.13.0",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "lodash": "^4.17.20"
+  }
+}

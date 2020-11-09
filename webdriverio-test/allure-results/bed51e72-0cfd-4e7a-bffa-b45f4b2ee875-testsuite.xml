@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604909494525' stop='1604909500219'>
+    <name>Врачи › Страница выдачи врачей: Фильтр "Расписание" на выдаче врачей: Сценарий</name>
+    <title>Врачи › Страница выдачи врачей: Фильтр "Расписание" на выдаче врачей: Сценарий</title>
+    <test-cases>
+        <test-case start='1604909494526' status='passed' stop='1604909496175'>
+            <name>"before all" hook for "Открыта страница сайта "doctor""</name>
+            <title>"before all" hook for "Открыта страница сайта "doctor""</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604909496176' status='passed' stop='1604909496413'>
+            <name>Открыта страница сайта "doctor"</name>
+            <title>Открыта страница сайта "doctor"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604909496413' status='passed' stop='1604909496740'>
+            <name>Отображаются 10 карточек врачей на странице</name>
+            <title>Отображаются 10 карточек врачей на странице</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604909496741' status='passed' stop='1604909496814'>
+            <name>Отображается кнопка "Расписание (фильтр)"</name>
+            <title>Отображается кнопка "Расписание (фильтр)"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604909496814' status='passed' stop='1604909496854'>
+            <name>Заголовок кнопки "Расписание (фильтр)" содержит текст</name>
+            <title>Заголовок кнопки "Расписание (фильтр)" содержит текст</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604909496855' status='passed' stop='1604909497087'>
+            <name>Нажимаем на кнопку "Расписание (фильтр)"</name>
+            <title>Нажимаем на кнопку "Расписание (фильтр)"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604909497087' status='passed' stop='1604909497202'>
+            <name>Отображается элемент "Список значений для выбора даты"</name>
+            <title>Отображается элемент "Список значений для выбора даты"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604909497202' status='passed' stop='1604909497233'>
+            <name>Помечен галочкой пункт "Все дни" в выпадающем списке "Список значений для выбора даты"</name>
+            <title>Помечен галочкой пункт "Все дни" в выпадающем списке "Список значений для выбора даты"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604909497233' status='passed' stop='1604909497723'>
+            <name>Нажимаем на пункт "Завтра" в выпадающем списке "Список значений для выбора даты"</name>
+            <title>Нажимаем на пункт "Завтра" в выпадающем списке "Список значений для выбора даты"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604909497723' status='passed' stop='1604909497776'>
+            <name>Заголовок кнопки "Расписание (фильтр)" содержит текст</name>
+            <title>Заголовок кнопки "Расписание (фильтр)" содержит текст</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604909497776' status='passed' stop='1604909499709'>
+            <name>Отображаются 10 карточек врачей на странице</name>
+            <title>Отображаются 10 карточек врачей на странице</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604909499709' status='passed' stop='1604909500218'>
+            <name>Отображаются врачи, работающие в выбранный день</name>
+            <title>Отображаются врачи, работающие в выбранный день</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
